@@ -1,5 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    
 }
 .titulo h1{
     text-align: center;
@@ -24,10 +25,25 @@ body{
   
 }
 
+
+.contato{
+    width: 445px;
+    height: 950px;
+    position: absolute;
+    top: 1px;
+  background-image: linear-gradient(to left, rgb(219, 219, 223), rgb(122, 124, 248));
+}
+#contato-container{
+    position: absolute;
+    top: 690px;
+    padding: 25px;
+}
+
+
 .informacao{
     position: absolute;
     left: auto;
-    background-color: aquamarine;
+    background-image: linear-gradient(to left, rgb(219, 219, 223), rgb(114, 109, 109));
     width: 375px;
     height: 800px;
     padding: 35px;
@@ -93,7 +109,7 @@ border-bottom: 2px solid black;
 
 .rodape{
     position: absolute;
-    background-color: rgb(166, 123, 245);
+    background-image: linear-gradient(to left, rgb(219, 219, 223), rgb(122, 124, 248));
     width: 893px;
     height: 419px;
     right: 1px;
