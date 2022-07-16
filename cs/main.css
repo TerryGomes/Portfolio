@@ -10,21 +10,93 @@
     font-size: 35px;
     text-align: center;
 }
+.titulo{
+    padding: 50px;
 
-body{
-    background-color: rgb(231, 231, 238);
-    padding-left: 55px;
-    padding-bottom: 25px;
-    padding-right: 55px;
-    padding-top: 15px;
 }
 
+body{
+    height: 1700px;
+}
 
 .corpo{
-    padding-top: 85px;
+    padding-top: 350px;
   
 }
 
-.dadosPessoais{
+.informacao{
+    position: absolute;
+    left: auto;
+    background-color: aquamarine;
+    width: 375px;
+    height: 800px;
+    padding: 35px;
+    top: 950px;
+    
 
+}
+
+
+.informacao h3{
+border-bottom: 2px solid black;
+
+}
+
+
+.trabalhos h3{
+
+    border-bottom: 2px solid black;
+    width: 450px;
+}
+
+
+.dadosPessoais{
+       
+    padding-top: 25px;
+
+}
+
+.academica{
+    
+    padding-top: 35px;
+}
+
+.cursos{
+    
+    padding-top: 45px;
+}
+
+
+
+.trabalhos{
+    position: absolute;
+    right: 10px;
+    top: 550px;
+    width: 820px;
+    padding: 25px;
+   
+    
+}
+.trabalhos h1{
+        border-bottom: 5px solid black;
+        width: auto;
+
+}
+
+.rodape h1{
+   top: 35px;
+    position: absolute;
+    left: 45px;
+    border-bottom: 5px solid black;
+    width: 820px;
+}
+
+.rodape{
+    position: absolute;
+    background-color: rgb(166, 123, 245);
+    width: 893px;
+    height: 419px;
+    right: 1px;
+    top: 1400px;
+    
 }
