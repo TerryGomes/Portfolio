@@ -54,15 +54,16 @@ body{
 
 
 .informacao h3{
-border-bottom: 2px solid black;
-
+    border-bottom: 2px solid black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 .trabalhos h3{
-
     border-bottom: 2px solid black;
     width: 450px;
+    font-size: 22px;
 }
 
 
