@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="cs/main.css"   type="text/css" media="all" />
+    <script type="text/javascript" src="js/acao.js">
+    </script>
+    <noscript>Você precisa Habilitar o JavaScript</noscript>
+</head>
+<body>
+     
+      
+   
+      
+      <div class="container">
+
+          
+          <div class="circulo">
+              
+              <img src="img/perfil.jpg" alt="Perfil" width = "250" height = "250" />   
+            </div>
+            <div class="circulo2">
+                <div id="textos">
+                    <h1>Leandro Gomes dos Santos</h1>
+                    <b>* Telefone:</b> 21 98292-1391 <br> 
+                    <b>* Email:</b>leandrogomes.santos@hotmail.com <br>
+                    <b>* Cidade:</b> Nova Iguaçu / Cabuçu - RJ<br>
+                    <b>* Rua:</b> Regina Número 300. <br>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    <div class="corpo">
+      
+
+
+        <div class="informacao">
+
+                <div class="dadosPessoais" >
+                <h3>Dados Pessoais:</h3>
+
+                <p>
+                <b>Nome:</b>  Leandro Gomes dos Santos <br>
+                <b> Data de nascimento:</b>   22/02/1984 <br>
+                <b>Idade:</b>  38 <br>
+                <b>Cidade: </b>  Nova Iguaçu - RJ / Brasil <br>
+                <b> Sexo: </b>  Masculino <br>
+                <b>Estado Cívil: </b>  Solteiro<br>
+                </p>
+            </div>
+
+            <div class="academica">
+                <h3>Formação Acadêmica</h3>
+
+                <p> 
+                <b>Graduação: </b> Ensino Médio<br>
+                <b>Instituto: </b> Wilton Game<br>
+                <b>Curso: </b> Formação Geral<br>
+                </p>
+            </div>
+
+            <div class="cursos">
+                <h3>Cursos e Experiências</h3>
+
+                <ul>
+                    <li>Excelência em serviços ao cliente (Help Desk) </li>
+                    <li>Sistemas operacionais, Windows, Linux.  </li>
+                    <li>Implantação, manutenção de redes e servidores. </li>
+                    <li>Lógica em programação. </li>
+                    <li>Habilitação: [A]</li>
+                    <li>
+                        <b>Linguagem: </b> 
+                        <ol>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>JavaScript</li>
+                            <li>java</li>
+                        </ol>
+                    </li>
+                </ul>
+                </div>
+        </div>
+
+  
+    <div class="trabalhos">
+      
+        <h1>EXPERIÊNCIA PROFISSIONAL</h1>
+      
+        <div id="trabalho1">
+      
+        <h3>Empresa:</h3>
+        <b class="empresas">System card Brasil LTDA:</b> <br>
+        <b>Função: </b> Suporte TI<br>
+        <ul>
+            <li>Suporte ao Usuário: Remoto / Campo</li>
+            <li>Conserto e manutenção: Interno / Externo </li>
+            <li>Suporte a impressora de cartão personalizado</li>
+            <li>Suporte Catraca: (Hardware / Sistema )</li>
+        </ul>
+    </div>
+
+    <div id="trabalho2">
+        <h3>Empresa:</h3>
+        <b class="empresas"">Decini Tecnologia e Soluções </b> <br>
+        <b>Função: </b> Suporte TI<br>
+        <ul>
+            <li>Conserto e Manutenção</li>
+            <li>Organizar Salas Instrução/Reunião/Conferências</li>
+            <li> 
+                <b>Organizar Salas para Instrução:</b> 
+                <ul>
+                    <li>Oi</li>
+                    <li>Tim</li>
+                    <li>Vivo</li>
+                    <li>Claro</li>
+                    <li>Cisco</li>
+                    <li>Petrobras</li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+
+    <div id="trabalho3">
+        <h3>Empresa:</h3>
+        <b class="empresas">Wyntech Solution: </b> (Contrato)<br>
+        <b>Função: </b> Suporte TI<br>
+        <ul>
+            <li>Conserto e Manutenção / Campo</li>
+            <li>Manutenção de Terninal (Lotéricas)</li>
+            <li>Manutenção de Impressora Térmica</li>
+            <li>Manutenção de Leitor de Código de Barra</li>
+        </ul>
+    </div>
+    
+
+      </div>
+</div>
+
+</body>
+</html>
