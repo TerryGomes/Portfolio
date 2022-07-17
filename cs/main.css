@@ -1,0 +1,153 @@
+*{
+    margin:  auto;
+    color: white;
+ }
+
+ b{
+    color: black;
+    font-size: 21px;
+ }
+
+.header
+{
+    margin:  auto;
+   
+}
+
+body{
+    background-color: rgb(210, 173, 224);
+}
+.circulo{
+    position: absolute;
+    top: 60px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: blue;
+    left: 199px;
+    border: 5px solid rgb(241, 238, 30);
+
+}                   
+
+.circulo2{
+    position: absolute;
+    width: 800px;
+    height: 210px;
+    top: 90px;
+    background-image: linear-gradient(rgb(12, 12, 12), rgb(185, 185, 185));
+    right: 149px;
+    z-index: -1;
+} 
+
+#textos h1{
+    margin: 5px;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    
+}
+
+#textos{
+    padding: 10px;
+    position: absolute;
+    left: 65px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+
+}
+
+.corpo{
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 450px;
+    height: 950px;
+ 
+}
+
+.informacao{
+    border: 2px solid black;
+    width: 359px;
+    height: 959px;
+    padding:  45px;
+    float: left;
+     background-image: linear-gradient(to right, rgb(36, 54, 212) , rgb(187, 176, 235));
+
+}
+
+
+
+.informacao h3{
+    border-bottom: 3px solid black;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.dadosPessoais{
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+.academica{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.cursos{
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+
+
+.trabalhos{
+    border: 2px solid black;
+    position: absolute;
+    left: 480px;
+    width: 990px;
+    padding: 35px;
+    height: 978px;
+ background-image: linear-gradient(to right, rgb(143, 143, 247) , rgb(43, 9, 236));
+}               
+
+
+.trabalhos h1{
+    font-size: 45px;
+    padding: 25px;
+}
+
+.trabalhos h3{
+    border-bottom: 3px solid black;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+#trabalho1{
+  
+    padding: 15px;
+    font-size: 20px;
+}
+
+#trabalho2{
+  
+    padding: 15px;
+    font-size: 20px;
+}
+#trabalho3{
+  
+    padding: 15px;
+    font-size: 20px;
+}
+
+.empresas{
+color: yellow;
+}
