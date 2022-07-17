@@ -23,19 +23,20 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: blue;
     left: 199px;
     border: 5px solid rgb(241, 238, 30);
-
+   
 }                   
-
+.circulo img{
+    border-radius: 50%;
+}
 .circulo2{
     position: absolute;
     width: 800px;
-    height: 210px;
-    top: 90px;
+    height: 230px;
+    top: 75px;
     background-image: linear-gradient(rgb(12, 12, 12), rgb(185, 185, 185));
-    right: 149px;
+    right: 169px;
     z-index: -1;
     border-radius: 1px 100px 100px 1px;
 } 
@@ -49,9 +50,9 @@ body{
 }
 
 #textos{
-    padding: 10px;
+   padding-top: 25px;
     position: absolute;
-    left: 65px;
+    left: 95px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
