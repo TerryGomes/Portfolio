@@ -37,6 +37,7 @@ body{
     background-image: linear-gradient(rgb(12, 12, 12), rgb(185, 185, 185));
     right: 149px;
     z-index: -1;
+    border-radius: 1px 100px 100px 1px;
 } 
 
 #textos h1{
