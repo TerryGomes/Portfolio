@@ -8,38 +8,49 @@
     font-size: 21px;
  }
 
-.header
-{
-    margin:  auto;
-   
-}
 
 body{
     background-color: rgb(210, 173, 224);
+ 
 }
 .circulo{
-    position: absolute;
+    float: left;
     top: 60px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     left: 199px;
     border: 8px solid rgb(241, 238, 30);
+    grid-row: curculo;
    
 }                   
 .circulo img{
     border-radius: 50%;
 }
+
+
 .circulo2{
     position: absolute;
+    left: 120px;
+    top: 25px;
     width: 800px;
     height: 230px;
-    top: 75px;
     background-image: linear-gradient(rgb(12, 12, 12), rgb(185, 185, 185));
     right: 169px;
     z-index: -1;
     border-radius: 1px 100px 100px 1px;
+    grid-row: circulo2;
 } 
+
+
+
+.container{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+     grid-row: container;
+}
+
 
 #textos h1{
     margin: 5px;
@@ -50,10 +61,10 @@ body{
 }
 
 #textos{
-   padding-top: 25px;
     position: absolute;
-    left: 95px;
-    color: white;
+    left: 170px;
+   padding-top: 25px;
+   color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
 
@@ -66,16 +77,21 @@ body{
     top: 450px;
     height: 950px;
  
+    display: grid;
+    grid-template-areas: 
+    "circulo, circulo2"
+    "informacao, trabalhos";
+
 }
 
 .informacao{
     border: 2px solid black;
-    width: 359px;
-    height: 959px;
-    padding:  45px;
-    float: left;
-     background-image: linear-gradient(to right, rgb(36, 54, 212) , rgb(187, 176, 235));
-
+    width: 360px;
+    height: 965px;
+    padding: 45px;
+    margin-right: 15px;
+    background-image: linear-gradient(to right, rgb(36, 54, 212) , rgb(187, 176, 235));
+    grid-row: informacao;
 }
 
 
@@ -110,12 +126,12 @@ body{
 
 .trabalhos{
     border: 2px solid black;
-    position: absolute;
     left: 480px;
-    width: 990px;
+    width: 100%;
     padding: 35px;
-    height: 978px;
- background-image: linear-gradient(to right, rgb(143, 143, 247) , rgb(43, 9, 236));
+    height: 985px;
+    background-image: linear-gradient(to right, rgb(143, 143, 247) , rgb(43, 9, 236));
+    grid-row: trabalhos;
 }               
 
 
@@ -153,3 +169,19 @@ body{
 .empresas{
 color: yellow;
 }
+
+@media (max-width: 768px) {
+    .corpo{
+    display: grid;
+    grid-template-areas: 
+    "informacao"
+    "trabalhos";
+}}
+
+@media (max-width: 768px) {
+    .container{
+    display: grid;
+    grid-template-areas: 
+    "circulo"
+    "circulo2";
+}}
